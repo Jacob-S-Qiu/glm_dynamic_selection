@@ -23,7 +23,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## directory structure 🏠
 data files, weights files were put on [Google Drive](https://drive.google.com/drive/folders/1tX7eobxMzt2fH2RZM7mxxmqnDmkR0ulb?usp=sharing)
-
+```plaintext
 ├── all_models_weights 
 │   ├── cd_long_base_best_model.pth
 │   ├── cd_long_dynamic_best_model.pth
@@ -363,3 +363,4 @@ data files, weights files were put on [Google Drive](https://drive.google.com/dr
 │       │       └── nt_1_wrong_sequences.fasta
 │       └── step9-result-data-processing.ipynb
 └── readme.md
+```
