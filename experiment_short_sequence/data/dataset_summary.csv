@@ -1,0 +1,9 @@
+dataset,train_length,test_length,train_first_seq_len,test_first_seq_len,train_positive,train_negative,test_positive,test_negative
+drosophila_enhancers_stark,5184,1730,2205,2077,2592,2592,865,865
+demo_human_or_worm,75000,25000,200,200,37500,37500,12500,12500
+demo_coding_vs_intergenomic_seqs,75000,25000,200,200,37500,37500,12500,12500
+human_enhancers_cohn,20843,6948,500,500,10422,10421,3474,3474
+human_ocr_ensembl,139804,34952,146,330,69902,69902,17476,17476
+human_ensembl_regulatory,231348,57713,600,400,69902,85512,17476,21378
+human_enhancers_ensembl,123872,30970,420,184,61936,61936,15485,15485
+human_nontata_promoters,27097,9034,251,251,12355,14742,4119,4915
