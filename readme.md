@@ -1,28 +1,50 @@
 # Limitations and Enhancements in Genomic Language Models 🧬
 ##### Open Source Code, Data and models🧾
-This repository provides the source code, datasets, and pre-trained models used in our research to advance genomic language modeling. It also includes detailed instructions on how to replicate our experiments, download data and models, and explore additional functionalities.
+This repository provides the source code, datasets, and pre-trained models used in our research to advance genomic language modeling. It also includes detailed instructions on how to replicate our experiments, download data and models, and explore additional functionalities. For more details, refer to our preprint on bioRxiv: [Limitations and Enhancements in Genomic Language Models: Dynamic Selection Approach](https://www.biorxiv.org/content/10.1101/2024.11.25.624002v1)
 
-## Quich Start  🚗
-##### 1. Clone the repository
-```base
+## Quich Start  🚀
+### 1. Clone the repository
+```bash
 git clone https://github.com/Jacob-S-Qiu/glm_dynamic_selection.git
 cd glm_dynamic_selection
 ```
-##### 2. Install dependencies
+### 2. Install dependencies
 Make sure Python 3.9+ is installed, and use the following command to install required packages:
-```base
+```bash
 pip install -r requirements.txt
 ```
-##### 3. Download MEME-Suite
+### 3. Download MEME-Suite
 Please follow the [official guide](https://meme-suite.org/meme/meme_5.5.6/doc/install.html?man_type=web)
 
-##### 4. Usage
-After the environment configuration is complete, the corresponding files in the file structure can be used for operation and data processing.
+### 4. Usage
+After the environment is set up, you can start using the repository for various tasks such as data processing, training, or model evaluation.
+#### Additional Instructions:
+- **To train a model**, ensure you have `accelerate` installed and run the following commands:
+  ```bash
+  pip install accelerate>=0.26.0
+  accelerate launch train.py
+  ```
+- **All experimental files, including data files and model weight files**, are hosted on [Google Drive](https://drive.google.com/drive/folders/1tX7eobxMzt2fH2RZM7mxxmqnDmkR0ulb?usp=sharing). You can download individual files or directly download the **entire project** from Google Drive, which includes the entire repository with code, data, and weights.
+- **To download the configurations for the three models mentioned in the paper**, use the following links:
+  - Hyena: [LongSafari/hyenadna-medium-160k-seqlen-hf](https://huggingface.co/LongSafari/hyenadna-medium-160k-seqlen-hf)
+  - NTv2: [InstaDeepAI/nucleotide-transformer-v2-500m-multi-species](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species)
+  - CD-GPT: [TencentAI4S/CD-GPT](https://github.com/TencentAI4S/CD-GPT)
+
+
+## Citing Our Work 📝
+```plaintext
+@article{qiu2024genomic,
+  title={Limitations and Enhancements in Genomic Language Models: Dynamic Selection Approach},
+  author={Shibo Qiu},
+  journal={bioRxiv},
+  year={2024},
+  doi={10.1101/2024.11.25.624002}
+}
+```
 ## License 📚
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## directory structure 🏠
-data files, weights files were put on [Google Drive](https://drive.google.com/drive/folders/1tX7eobxMzt2fH2RZM7mxxmqnDmkR0ulb?usp=sharing)
 ```plaintext
 ├── all_models_weights 
 │   ├── cd_long_base_best_model.pth
