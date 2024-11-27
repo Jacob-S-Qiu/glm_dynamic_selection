@@ -17,19 +17,20 @@ pip install -r requirements.txt
 Please follow the [official guide](https://meme-suite.org/meme/meme_5.5.6/doc/install.html?man_type=web)
 
 ### 4. Usage
-After the environment is set up, you can start using the repository for various tasks such as data processing, training, or model evaluation.
-#### Additional Instructions:
+- **All experimental files, including data files and model weight files**, are hosted on [Google Drive](https://drive.google.com/drive/folders/1tX7eobxMzt2fH2RZM7mxxmqnDmkR0ulb?usp=sharing). You can download individual files or directly download the **entire project** from Google Drive, which includes the entire repository with code, data, and weights.
+
 - **To train a model**, ensure you have `accelerate` installed and run the following commands:
   ```bash
   pip install accelerate>=0.26.0
   accelerate launch train.py
   ```
-- **All experimental files, including data files and model weight files**, are hosted on [Google Drive](https://drive.google.com/drive/folders/1tX7eobxMzt2fH2RZM7mxxmqnDmkR0ulb?usp=sharing). You can download individual files or directly download the **entire project** from Google Drive, which includes the entire repository with code, data, and weights.
+  
 - **To download the configurations for the three models mentioned in the paper**, use the following links:
   - Hyena: [LongSafari/hyenadna-medium-160k-seqlen-hf](https://huggingface.co/LongSafari/hyenadna-medium-160k-seqlen-hf)
   - NTv2: [InstaDeepAI/nucleotide-transformer-v2-500m-multi-species](https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species)
   - CD-GPT: [TencentAI4S/CD-GPT](https://github.com/TencentAI4S/CD-GPT)
-
+ 
+After the environment is set up, you can start using the repository for various tasks such as data processing, training, or model evaluation.
 
 ## Citing Our Work 📝
 ```plaintext
