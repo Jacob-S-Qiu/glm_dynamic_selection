@@ -45,7 +45,7 @@ After the environment is set up, you can start using the repository for various 
 ## License 📚
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ## Acknowledgements 🙏
-Thanks to the Guangdong Computational Mathematics Society, Baidu Feizuo and Guangzhou Zhijing Future Internet Technology Co., LTD., AI4Science co-organized by Beijing University of Aeronautics and Astronautics, Zhejiang University, Huawei MindSpore community and Sun Yat-sen University for providing us with important data and topic directions.
+Thanks to the Guangdong Computational Mathematics Society, Baidu Paddle and Guangzhou Zhijing Future Internet Technology Co., LTD., AI4Science co-organized by Beijing University of Aeronautics and Astronautics, Zhejiang University, Huawei MindSpore community and Sun Yat-sen University for providing us with important data and topic directions.
 ## directory structure 🏠
 ```plaintext
 ├── all_models_weights 
